@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url('world-map.jpg') no-repeat center center/cover;
+}
+
+/* Navigation Bar */
+nav {
+    background: #007bff;
+    padding: 15px 20px; /* Increased height */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+.btn {
+    padding: 8px 15px;
+    background: #fff;
+    color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #0056b3;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px; /* Moved content upwards */
+    flex: 1;
+}
+
+.content {
+    max-width: 50%;
+    margin-top: -20px; /* Moved text slightly upwards */
+}
+
+.content h1 {
+    font-size: 3em; /* Increased font size */
+}
+
+.highlight {
+    color: #007bff;
+}
+
+.book-btn {
+    padding: 12px 24px;
+    font-size: 18px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.book-btn:hover {
+    background: #0056b3;
+}
+
+/* Increased Image Size */
+.image img {
+    width: 520px; /* Slightly bigger */
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
